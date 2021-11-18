@@ -1,0 +1,28 @@
+{
+    "cells": [
+        {
+            "title": "HTML",
+            "image": "Basic"
+        },
+        {
+            "title": "Git - Basic",
+            "image": "Basic"
+        },
+        {
+            "title": "Terminal - Basic",
+            "image": "Basic"
+        },
+        {
+            "title": "VSC - Basic",
+            "image": ""
+        },
+        {
+            "title": "CSS",
+            "image": "CSS Advanced"
+        },
+        {
+            "title": "Less",
+            "image": "CSS Advanced"
+        }
+    ]
+}
