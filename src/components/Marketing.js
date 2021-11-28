@@ -14,8 +14,8 @@ const MarketingSection = props => (
             
             <img src={require('../images/logos/ads.png')} width="80"/>
             <img src={require('../images/logos/analytics.png')} width="80"/>
+            <img src={require('../images/logos/gtm.png')} width="80"/>
             <img src={require('../images/logos/funnelytics.png')} width="80"/>
-            <img src={require('../images/logos/clickF.png')} width="80"/>
         </MarketingLogos>
         </div>
         </MarketingTitleGroup>
@@ -43,7 +43,7 @@ const MarketingLogos =styled.div`
     display: grid;
     grid-template-columns: repeat(4,4fr);
     width: 80%;
-    padding: 0px 30px;
+    padding: 20px 30px;
     
 `
 
@@ -51,11 +51,14 @@ const MarketingTitleGroup =styled.div`
     display: grid;
     grid-template-columns: 300px auto;
     margin: 100px 40px 0px;
-    grid-gap: 20px;
+    grid-gap: 40px;
     grid-template-rows: auto 100%;
+    padding: 0 100px 30px 100px;
+    
 
     @media (max-width: 720px){
         grid-template-columns: 1fr;
+        padding: 30px;
         
     }
 `

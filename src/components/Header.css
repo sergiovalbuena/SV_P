@@ -20,7 +20,9 @@
     align-items: center;
     justify-items: center;
 }
-
+.HeaderGroup img{
+    width: 80px;
+}
 .Header a{
     color: white;
     font-weight: 700;

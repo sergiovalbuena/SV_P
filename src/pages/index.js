@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Card from '../components/Card'
-import staticdata from '../../staticdata.json'
 import Cell from '../components/Cell'
 import styled from 'styled-components'
 import MarketingSection from '../components/Marketing'
@@ -48,32 +47,41 @@ const IndexPage = () => (
       <h2>Some projects</h2>
         <div className="CardGroup">
           
-          <div className = "Card">
-            title="First Prject"
-            text="github kjkjkjjk"
-            //image={require("../images/logos/CSharp.png")}
-        </div> 
-      
+          <Card 
+            title="FooData"
+            text="Better process, more profits"
+            image={require('../images/fooData.png')}
+          />
           
           <Card 
-            title="Second efeafea"
-            text="short descripction1 fsafrfa fasr frasf faf "
-            image=""
+            title="Check the Rabbit"
+            text="Tap/Click those CSS buunies"
+            image={require('../images/batata.png')}
           />
           <Card 
             title="Third Prject"
             text="short descripction1 adekf efas fa"
-            image=""
+            image={require('../images/SuperCss.png')}
           />
           <Card 
             title="Fourth Prject"
             text="short descripction1 jnusargfn rg..."
-            image=""
+            image={require('../images/rabbits.png')}
           />
+           <Card 
+            title="Fourth Prject"
+            text="short descripction1 jnusargfn rg..."
+            image={require('../images/yogananda.png')}
+          />
+          <Card 
+            title="Fourth Prject"
+            text="short descripction1 jnusargfn rg..."
+            image={require('../images/myBehance.png')}
+          />          
         </div>
     </div>
 
-    <h2>I've working with...</h2>
+    <SectionCaption>I've working with...</SectionCaption>
     <div className="myFavs">
       <img src={require('../images/logos/react.png')} width="60"/>
       <img src={require('../images/logos/CSharp.png')} width="60"/>
@@ -94,21 +102,33 @@ const IndexPage = () => (
   
     <MarketingSection 
       image={require('../images/mktbg.jpg')}
-      title="Ask me to boost you web!"
+      title="Analytics to boost your project!"
       text="I will lead you to the path to reach customers, organic applying good SEO technics. I measure site to ensure the performance and understand the client behavior. I'am able to implement funnels on projects to enhance sales."
     />
 
     
 
     <SectionCaption>Courses🤓 </SectionCaption>
-    <SectionCellGroup>
 
-    {staticdata.cells.map(cell => (
+    <SectionCellGroup>
       <Cell 
-        title = {cell.title}
-        image = {cell.image} 
+        title = "HTML5"
+        image={require("../images/logos/html.png")} 
       />
-    ))}
+      <Cell 
+        title = "CSS3"
+        image={require("../images/logos/css.png")} 
+      />
+      <Cell 
+        title = "git"
+        image={require("../images/logos/git.png")} 
+      />
+      <Cell 
+        title = "terminal"
+        image={require("../images/logos/termial.svg")} 
+      />  
+
+
     </SectionCellGroup>
 
   </div>
