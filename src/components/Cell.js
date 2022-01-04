@@ -10,7 +10,7 @@ const CellGroup = styled.div`
 const CellImage = styled.img`
     width: 60px;
     height: 60px;
-    background: black;
+    background: white;
     border-radius: 10px;
     background-size: 60px;
 `
