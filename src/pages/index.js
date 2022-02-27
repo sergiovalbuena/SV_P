@@ -7,11 +7,13 @@ import MarketingSection from '../components/Marketing'
 import Wave from '../components/Wave'
 
 const SectionCaption = styled.p`
-  font-weight: 600;
-  font-size: 38px;
-  text-transform: uppercase;
-  color: #94A4Ba;
+  margin: 50px 20px;
+  font-size: 60px;
   text-align: center;
+  font-weight: 700;
+  background: linear-gradient(104deg , #050A27 0%, #4a5a8c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 `
 
 const SectionCellGroup = styled.div`
@@ -34,7 +36,7 @@ const IndexPage = () => (
   <div>
     <div className="Hero">
       <div className="HeroGroup">
-        <h1>Hi, I'm Sergio 🧑🏻‍💻</h1>
+        <h1>Hi 👋🏼, I'm Sergio 🧑🏻‍💻</h1>
         <p>designer, programmer, developer. </p>
         <p>Let's connect to create amazing projects.</p>
         <Link to="/page-2/">Contact Me</Link>
@@ -48,39 +50,47 @@ const IndexPage = () => (
         <div className="CardGroup">
           
           <Card 
-            title="FooData"
-            text="Better process, more profits"
+            title=""
+            text=""
+            link="https://colorhunt.co"
             image={require('../images/fooData.png')}
           />
           
           <Card 
-            title="Check the Rabbit"
-            text="Tap/Click those CSS buunies"
+            title=""
+            text=""
+            link="https://www.redbubble.com/shop/dev+sweatshirts"
             image={require('../images/batata.png')}
           />
           <Card 
-            title="Third Prject"
-            text="short descripction1 adekf efas fa"
+            title=""
+            text=""
+            link="https://www.redbubble.com/shop/dev+sweatshirts"
             image={require('../images/SuperCss.png')}
           />
           <Card 
-            title="Fourth Prject"
-            text="short descripction1 jnusargfn rg..."
+            title=""
+            text=""
+            link="https://www.redbubble.com/shop/dev+sweatshirts"
             image={require('../images/rabbits.png')}
           />
            <Card 
-            title="Fourth Prject"
-            text="short descripction1 jnusargfn rg..."
+            title=""
+            text=""
+            link="https://www.redbubble.com/shop/dev+sweatshirts"
             image={require('../images/yogananda.png')}
           />
           <Card 
-            title="Fourth Prject"
-            text="short descripction1 jnusargfn rg..."
+            title=""
+            text=""
+            link="https://www.redbubble.com/shop/dev+sweatshirts"
             image={require('../images/myBehance.png')}
           />          
         </div>
     </div>
 
+
+    
     <SectionCaption>I've working with...</SectionCaption>
     <div className="myFavs">
       <img src={require('../images/logos/react.png')} width="60"/>
