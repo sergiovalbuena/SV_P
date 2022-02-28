@@ -38,8 +38,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1>Hi 👋🏼, I'm Sergio 🧑🏻‍💻</h1>
         <p>designer, programmer, developer. </p>
-        <p>Let's connect to create amazing projects.</p>
-        <Link to="/page-2/">Contact Me</Link>
+        <Link to="/page-2/">Let's Connect 🚀</Link>
 
         <Wave/>
 
@@ -52,32 +51,32 @@ const IndexPage = () => (
           <Card 
             title=""
             text=""
-            link="https://colorhunt.co"
+            link="https://reactinitialsite.netlify.app"
             image={require('../images/fooData.png')}
           />
           
           <Card 
             title=""
             text=""
-            link="https://www.redbubble.com/shop/dev+sweatshirts"
+            link="https://batatabit-responsive.netlify.app"
             image={require('../images/batata.png')}
           />
           <Card 
             title=""
             text=""
-            link="https://www.redbubble.com/shop/dev+sweatshirts"
+            link="https://animationcsssuperman.netlify.app"
             image={require('../images/SuperCss.png')}
           />
           <Card 
             title=""
             text=""
-            link="https://www.redbubble.com/shop/dev+sweatshirts"
+            link="https://rabbitland.netlify.app"
             image={require('../images/rabbits.png')}
           />
            <Card 
             title=""
             text=""
-            link="https://www.redbubble.com/shop/dev+sweatshirts"
+            link="https://yogananda.netlify.app"
             image={require('../images/yogananda.png')}
           />
           <Card 
@@ -93,12 +92,12 @@ const IndexPage = () => (
     
     <SectionCaption>I've working with...</SectionCaption>
     <div className="myFavs">
+      <img src={require('../images/logos/js.png')} width="60"/>
       <img src={require('../images/logos/react.png')} width="60"/>
+      <img src={require('../images/logos/styledComponents.png')} width="60"/>
       <img src={require('../images/logos/CSharp.png')} width="60"/>
       <img src={require('../images/logos/unity.png')} width="60"/>
-      <img src={require('../images/logos/js.png')} width="60"/>
-      <img src={require('../images/logos/swift.png')} width="60"/>
-      <img src={require('../images/logos/styledComponents.png')} width="60"/>
+      <img src={require('../images/logos/git.png')} width="60"/>
       <img src={require('../images/logos/npm.png')} width="60"/>
       <img src={require('../images/logos/nodejs.png')} width="60"/>
       <img src={require('../images/logos/mySQL.png')} width="60"/>
@@ -117,24 +116,28 @@ const IndexPage = () => (
     />
 
     
-
-    <SectionCaption>Courses🤓 </SectionCaption>
+ 
+    <SectionCaption>Courses  </SectionCaption>
 
     <SectionCellGroup>
       <Cell 
         title = "HTML5"
+        link = "/page-2/"
         image={require("../images/logos/html.png")} 
       />
       <Cell 
         title = "CSS3"
+        link = "/page-2/"
         image={require("../images/logos/css.png")} 
       />
       <Cell 
         title = "git"
+        link = "/page-2/"
         image={require("../images/logos/git.png")} 
       />
       <Cell 
         title = "terminal"
+        link = "/page-2/"
         image={require("../images/logos/termial.svg")} 
       />  
 

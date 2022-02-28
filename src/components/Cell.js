@@ -24,8 +24,10 @@ const CellTitle = styled.h5`
 
 const Cell = props => (
     <CellGroup>
-        <CellImage src={props.image}/>
+        <a href={props.link}>
+        <CellImage src={props.image}/>    </a>
         <CellTitle>{props.title}</CellTitle>
+     
     </CellGroup>
 )
 

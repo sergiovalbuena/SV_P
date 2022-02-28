@@ -2,10 +2,12 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const SecondPage = () => (
-  <div>
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+  <div className='Hero'>
+    <div className='HeroGroup'>
+    <h1>Comming Soon</h1>
+    <p>will start with websites and later on some videos</p>
+    <Link to="/">Go back to the 🏠 </Link>
+    </div> 
   </div>
 )
 

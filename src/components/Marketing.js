@@ -35,7 +35,8 @@ const MarketingGroup = styled.div`
     align-items: center;
     justify-content: center;
     @media(max-width: 640px){
-        height: 820px;
+        height: 720px;
+        padding: 20px 50px 150px;
     }
 `
 const MarketingLogos =styled.div`
