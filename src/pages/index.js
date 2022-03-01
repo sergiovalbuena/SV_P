@@ -38,7 +38,13 @@ const IndexPage = () => (
       <div className="HeroGroup">
         <h1>Hi 👋🏼, I'm Sergio 🧑🏻‍💻</h1>
         <p>designer, programmer, developer. </p>
-        <Link to="/page-2/">Let's Connect 🚀</Link>
+
+
+        <div className='redes'>
+           <a href="https://co.linkedin.com/in/sergio-valbuena-galindo-73056327" target="_blank"> <img src={require('../images/logos/linkedin.svg')}/></a>
+           <a href="https://github.com/sergiovalbuena" target="_blank"> <img src={require('../images/logos/gitH.svg')}/> </a>
+           <a href="https://www.behance.net/sergiovalbuena1" target="_blank"> <img src={require('../images/logos/behance.svg')}/> </a>
+        </div>
 
         <Wave/>
 
@@ -87,6 +93,7 @@ const IndexPage = () => (
           />          
         </div>
     </div>
+    
 
 
     
@@ -120,11 +127,6 @@ const IndexPage = () => (
     <SectionCaption>Courses  </SectionCaption>
 
     <SectionCellGroup>
-      <Cell 
-        title = "HTML5"
-        link = "/page-2/"
-        image={require("../images/logos/html.png")} 
-      />
       <Cell 
         title = "CSS3"
         link = "/page-2/"
